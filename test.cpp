@@ -22,9 +22,8 @@ int main(){
     //     integral += dlt * y;
     // }
 
-    int a=0, b=4, c=5, d;
-    d = a || b+c && b-c;
-    cout << d;
+
+
 
 
 
