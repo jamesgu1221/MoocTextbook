@@ -7,7 +7,7 @@ int main()
     int n, total=0, x, i=0;
     cin >> n;
     for (i=0; i<10; i++){
-    while (n > 0){
+    while (n > 0){      //从个位起取出数字中的每一位
         x = n%10;
         total += x;
         n = n/10;
