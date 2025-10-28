@@ -2,6 +2,19 @@
     //for循环
     //最多需要n次
 
+int main(){
+int  k, x;
+int array[] = {2, 3, 1, 7, 5, 8, 9, 0, 4, 6};
+cout << "请输入要查找的元素值："; cin >> x;
+for (k = 0; k < 10; ++k)
+  if (x == array[k]) { 
+    cout << k; 
+    break;
+  }
+if (k == 10) cout << "-1";
+}
+
+
 //6.2.2二分查找
     //要求序列已排序
     //最多需要lbn次

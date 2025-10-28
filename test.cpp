@@ -1,14 +1,10 @@
 #include <iostream>
 #include <iomanip>
 #include <cmath>
+#include <cstring>
 using namespace std;
 
 int main(){
-
-    // m >= 10 && m <= 99;
-    // a >= 'a' && a <= 'z' || a >= 'A' && a <= 'Z';
-    // m % 2 == 1;
-    // x != 2 && x != 3;
 
     
     // double a, b, dlt, integral = 0, y;
@@ -22,6 +18,22 @@ int main(){
     //     integral += dlt * y;
     // }
 
+
+    // int lh, minh, k, tmp, n=10;
+    // int array[]={2, 5, 1, 9, 10, 0, 4, 8, 7, 6};
+
+    // for (lh=0; lh<n-1; lh++){
+    //     minh=lh;
+    //     for (k=lh; k<n; ++k){
+    //         if(array[k] < array[minh]) minh=k;
+    //     }
+    //     tmp= array[minh];
+    //     array[minh] = array[lh];
+    //     array[lh] = tmp; 
+    // }
+    // for (int i=0; i<n; i++){
+    //     cout << array[i] << " ";
+    // }
 
 
     return 0;
