@@ -30,7 +30,7 @@ int main()
 
     int out=0;
     for (int i=0; i<100; i++){
-        if(total[i]>out) out = total[i] ;
+        if(total[i]>out) out = total[i];
     }
 
     cout << out;

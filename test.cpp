@@ -4,7 +4,7 @@
 #include <cstring>
 using namespace std;
 
-int main(){
+// int main(){
 
     
     // double a, b, dlt, integral = 0, y;
@@ -34,9 +34,22 @@ int main(){
     // for (int i=0; i<n; i++){
     //     cout << array[i] << " ";
     // }
+    // return 0;
+    //}
 
+int f(int a){ 
+int b=0;
+  static int c=3;
+  b=b+1; 
+  c=c+1;
+  return(a+b+c);
+}
 
-    return 0;
+int main()
+{ int a=2,i;
+  for (i=0; i<3; ++i)
+    cout << f(a);
+return 0;
+}
 
     
-}
