@@ -22,7 +22,7 @@ using namespace std;
 
 int main()
 {
-    int a[ ] = { 0, 3, 5, 1, 8, 7, 9, 4, 2, 10, 6};
+    int a[] = {0, 3, 5, 1, 8, 7, 9, 4, 2, 10, 6};
     int i, j, tmp, n = 11;
     bool flag;
     for (i=n-1; i>0; i--){

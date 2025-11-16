@@ -14,7 +14,7 @@
         //有声明时在声明中给出，无声明在定义中给出
         //缺省值放在列表最后
         //e.g.
-            //void print(int value, int base=10);
+            void print(int value, int base=10);
 
 //5.1.2 函数定义和声明的区别
     //形式

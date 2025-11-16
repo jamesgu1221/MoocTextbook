@@ -18,7 +18,7 @@
     //每个模板参数之前都有关键字class或typename
     //通常，每个模板参数都需要出现在函数形式参数表，如未出现，则调用时需要显示指定模板实参
         //e.g.
-            templete <class T1, class T2, class T3>
+            template <class T1, class T2, class T3>
             T3 clac(T1 x, T2 y){
                 return x+y;
             }
