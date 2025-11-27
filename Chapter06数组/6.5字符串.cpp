@@ -21,3 +21,4 @@
         //strlen(ch)            返回字符串长度, \0不计入
         //strcmp(ch1, ch2)      从前向后比较，比较首个不同的元素，ch1>ch2返回正数，ch1=ch2返回0，ch1<ch2返回负数
         //strchr(ch, a)         返回第一个a的地址
+        //strrchr(ch, a)        返回最后一个a的地址
