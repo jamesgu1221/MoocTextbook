@@ -2,14 +2,14 @@
     //将同一个算法应用于不同的数据类型
 //格式
     /*
-        template<模板参数类型表>
+        template<class 标识符1, class 标识符2, ...>
         返回类型 函数名(形式参数表){
             函数体
         }
     */
 
     //e.g. 求两者中的较大值
-            template <class T>
+            template <class T>  //T作为后续类型名使用
             T max(T a, T b){
                 return a>b ? a : b;
             }
@@ -25,3 +25,4 @@
 
             clac<int, char, int>(5, 'a');    //return 102
             clac<int, char, char>(5, 'a');   //return ‘f’
+            //↑  T1    T2    T3(此处为返回类型)
