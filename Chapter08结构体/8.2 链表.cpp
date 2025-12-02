@@ -8,6 +8,7 @@
             datatype data;
             linkNode *next;
         };
+        // 
         
 
 //8.2.3 单链表的操作
