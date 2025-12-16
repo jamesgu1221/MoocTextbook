@@ -6,13 +6,13 @@
     //定义结点类型(用结构体)
         struct linkNode {
             datatype data;
-            linkNode *next;
+            linkNode* next;
         };   
 
 //8.2.3 单链表的操作
     //创建单链表
         //定义链表的头指针，并初始化为空指针
-            linkNode *head = nullptr;
+            linkNode* head = nullptr;
 
     //插入结点
         //在最前面插入

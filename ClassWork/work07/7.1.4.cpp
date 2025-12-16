@@ -19,13 +19,13 @@ int main()
     {
         p = new ListNode;
         p->num = num;
-        head = p->next;
+        p->next = head;
         head = p;
         cin >> num;
     }
 
     //cout << "按照输入顺序逆序输出\n";
-    for(p = head; p->next != NULL; p = p->next)
+    for(p = head; p != NULL; p = p->next)
     {
         cout << p->num << " ";
     };
