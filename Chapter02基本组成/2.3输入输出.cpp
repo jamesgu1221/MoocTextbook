@@ -29,6 +29,7 @@
         //setprecision与precision
             //设置浮点数的精度，即有效位数
             //影响到下一个设置精度的操作之前
+            cout << fixed << setprecision(2) << 3.14159; //输出3.14
         //设置进制
             //hex   十六进制
             //oct   八进制
