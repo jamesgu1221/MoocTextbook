@@ -6,7 +6,7 @@
         case 整型常量表达式3 : 语句3;
 
         default :语句n;     //default可选
-        //从相等的一行起执行到default之前
+        //从相等的一行起执行到default
         
     }
         
