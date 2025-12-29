@@ -18,7 +18,11 @@
     //e.g. x=9 y=4   x/double(y)=2.25
     //静态转换static_cast<类型名>(表达式)
 
-
 //2.4.4 数学函数库
     //#include <cmath>
+        //绝对值函数
+            //int abs(int x)
+            //double fabs(double x)
+        //平方根函数
+            //double sqrt(double x)
     
