@@ -1,5 +1,11 @@
 //7.7.1 指针数组
     //数组的元素均为指针
+    //字符串数组
+        //e.g.
+            char *city[2] = {"Beijing", "Shanghai"};
+            for (int i = 0; i < 2; i++) {
+                cout << city[i] << endl;
+            }
 
 //7.7.3 多级指针
     //指向指针的指针
