@@ -44,9 +44,12 @@ using namespace std;
                     &&((hz==4) + (dt==3)) == 1
                     &&((py==1) + (th==4) + (hz==2) + (dt==3)) == 1
                 ) cout << dt << hz << py << th;
-
+                flag = true;
+                break;
             }
+            if (flag) break;
         }
+        if (flag) break;
     }
    return 0;
    }

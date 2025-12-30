@@ -6,7 +6,6 @@
     */
 
     //e.g. 计算e的x次方
-        /*
         long double ex, x, p;   //ex存储ex的值，p存储当前项，i存储次方
         int i;
         cin >> x;
@@ -19,7 +18,7 @@
 
         }
         cout <<  ex;
-        */
+        
 
 
 //4.3.2 do-while循环
@@ -33,7 +32,7 @@
         //do while无论是否满足条件，都会执行一次
 
         //e.g. 二分法求函数的零点
-            /*
+            
             double x, x1 = -1, x2 = 1, fx1, fx;
 
             do {
@@ -43,9 +42,7 @@
                 if (fx * fx1 > 0) {x1 = x;}
                 else {x2 = x;}
             } while (fabs(fx) > 1e-6);
-
-
-
+            
             cout << "方程的根为：" << x << endl;
-            */
+            
 
