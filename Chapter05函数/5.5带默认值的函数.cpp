@@ -1,6 +1,6 @@
 //格式
     //e.g.
-        //void print(int value, int base = 10);
+        void print(int value, int base = 10);
 
 //注意
     //应当放在函数声明中

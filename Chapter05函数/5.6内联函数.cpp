@@ -10,7 +10,7 @@
     //定义必须在被调用之前
 
 //e.g. 输出1~10的立方
-    /*
+    
     inline int cube(int x)
     { 
         return (x * x * x); 
@@ -22,4 +22,4 @@
             cout << cube(i) << ' ';
         }
     }
-    */
+    
