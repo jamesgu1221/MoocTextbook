@@ -13,7 +13,6 @@
             int classNum;
         };
 
-       
 
 //8.1.2 结构体类型变量的定义
     //格式
@@ -36,7 +35,8 @@
         studentArray[2] = studentArray[1];
     //可以用指针访问结构体变量
         student *sp = &ZhangSan;
-        sp -> name;
+        sp -> name = "张三丰";
+        (*sp).age = 13;        //括号是必须的，因为.的优先级高于*
 
         
 //8.1.4 结构体表示函数参数
