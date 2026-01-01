@@ -11,16 +11,18 @@
             //不检查输入是否越界
         //cin.getline(字符数组名, 数组长度, 结束标记);
             //自动保留一位给\0
+            //默认结束标记为换行符
 
     //输出
         //cout << ch;
     
     //字符串处理函数(csrting)
-        //strcpy(ch1, ch2)      用ch2覆盖ch1
-        //strncpy(ch1, ch2, n)  至多从ch2复制n个字符到ch1
-
-        //strcat(ch1, ch2)      将ch2拼接到ch1末尾
-        //strncat(ch1, ch2, n)  从ch2至多取n个字符拼接到ch1末尾
+        //以下函数返回ch1的地址，同时需要注意防止ch1越界
+            //strcpy(ch1, ch2)      用ch2覆盖ch1                
+            //strncpy(ch1, ch2, n)  从ch2至多复制n个字符到ch1    
+            
+            //strcat(ch1, ch2)      将ch2拼接到ch1末尾               
+            //strncat(ch1, ch2, n)  从ch2至多取n个字符拼接到ch1末尾   
 
         //strlen(ch)            返回字符串长度, \0不计入
         //strcmp(ch1, ch2)      从前向后比较，比较首个不同的元素，ch1>ch2返回正数，ch1=ch2返回0，ch1<ch2返回负数
