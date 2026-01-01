@@ -10,6 +10,20 @@
 //7.7.3 多级指针
     //指向指针的指针
     //二级指针前加**
+        //e.g.
+            int a = 10;
+            int *p = &a;      //一级指针
+            int **q = &p;     //二级指针
+
+            cout << "a = " << a << endl;
+            cout << "*p = " << *p << endl;
+            cout << "**q = " << **q << endl;
+
+            cout << "Value of a: " << a  << "or"<< *p << "or"<< **q << endl;
+            cout << "Address of a: " << &a << endl;
+            cout << "Value of p: " << p  << "or" << *q << endl;
+            cout << "Value of q: " << q << endl;
+
 
 //7.7.4 动态二维数组
     //e.g.创建3*4数组
