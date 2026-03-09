@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+int main() {
 
 //8.2.1 链表的概念
     //结点：储存一个元素的空间
@@ -79,14 +80,16 @@ using namespace std;
         //查找值为x的结点
             linkNode *p;
             p = head;
+            int x;
+            cin >> x;
             while(p){
-                if（p->data == x）break;
+                if(p->data == x)break;
                 p = p->next;
             }
 
     // 反转链表
         //头插法
-            linkNode *
+
 
         //迭代法
             linkNode *prev = nullptr;
@@ -95,9 +98,14 @@ using namespace std;
 //8.2.4 单循环链表
 
 //8.2.5 双向链表
+struct linkNode2 {
+            int data;
+            linkNode2* next;
+            linkNode2* prev;
+        };   
     //插入结点
         //在结点p后面插入新结点s
-            linkNode* s = new linkNode;
+            linkNode2* s = new linkNode2;
             cin >> s->data;
             s -> next = p -> next;
             s -> prev = p;
@@ -108,3 +116,5 @@ using namespace std;
 
 //8.2.6 广义表
     //定义广义表的结点类型
+
+}
