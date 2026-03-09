@@ -27,6 +27,7 @@ int main() {
                 s->next = head;
                 head = s;
         //在指定位置插入
+            linkNode* p;
             //在结点p后面插入新结点s
                 linkNode* s = new linkNode;
                 s->data = 20;
@@ -47,12 +48,10 @@ int main() {
             cin >> pos;
             if (pos < 0) {
                 cout << "位置不合法" << endl;
-                return;
             } else if (pos ==0) {
                 linkNode *temp = head;
                 head = head->next;
                 delete temp;
-                return;
             } else {
                 linkNode *current = head;
                 int count = 0;
@@ -62,7 +61,6 @@ int main() {
                 }
                 if (current == nullptr || current->next == nullptr) {
                     cout << "位置不合法" << endl;
-                    return;
                 }
                 linkNode *temp = current->next;
                 current->next = temp->next;
@@ -104,13 +102,14 @@ struct linkNode2 {
             linkNode2* prev;
         };   
     //插入结点
-        //在结点p后面插入新结点s
-            linkNode2* s = new linkNode2;
-            cin >> s->data;
-            s -> next = p -> next;
-            s -> prev = p;
-            p -> next = s;
-            p -> next -> prev = s;
+        linkNode2* p2;
+        //在结点p2后面插入新结点s2
+            linkNode2* s2 = new linkNode2;
+            cin >> s2->data;
+            s2 -> next = p2 -> next;
+            s2 -> prev = p2;
+            p2 -> next = s2;
+            p2 -> next -> prev = s2;
 
 
 
