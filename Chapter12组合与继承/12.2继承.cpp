@@ -30,7 +30,7 @@
     //派生方法
         /*
                         public派生             private派生
-        public 成员     public --> public      public--> private
+         public成员     public --> public      public--> private
         private成员     不可被访问              不可被访问
         */
 
